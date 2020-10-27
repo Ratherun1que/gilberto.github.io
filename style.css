@@ -68,6 +68,12 @@ body {
     height: 35%;
     width: 35%;
   }
+
+  main > div > article > section > p {
+    width: 30em;
+    margin-right: auto;
+    margin-left: auto;
+  }
   
   footer > div > nav > p {
   text-align: center;
