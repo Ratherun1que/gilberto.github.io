@@ -1,31 +1,72 @@
 body {
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(252, 255, 237);
     margin: 0;
+    text-align: center;
+    min-width: 350px;
   }
   
   header {
     background-color: rgb(0, 0, 0);
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 10px 10px;
     text-align: center;
     padding: 2px;
   }
   
-  .spacing {
-    line-height: 0.3;
+  /* below I decided to implement a subtle outlining effect style to the pages' main title heading */
+  header > div > h1 {
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgb(255, 214, 34)
+  
   }
   
-  main {
+  header > div > h3 {
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(255, 214, 34)
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+  }
+  
+  nav a {
+    margin-top: 25px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: blue
+  }
+  
+  /*below is the class selector responsible for the "button" styling around the links at the top of the page. Here we can modify effects such as the button shape, height, width, as well as color */
+  .button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .spacing {
+    line-height: 0.3;
   }
   
   main > div > article> section > img {
     border-radius: 5px;
     display: block;
     margin: 10px auto;
-    height: 50%;
-    width: 50%;
+    height: 35%;
+    width: 35%;
   }
   
   footer > div > nav > p {
@@ -34,7 +75,14 @@ body {
   }
   
   footer {
+    display: block;
     background-color: black;
     color:white;
     padding: 2px;
   }
+
+  /* below is an example of a pseudo-class which allows the color to change over the links as your cursors moves over them */
+  nav a:hover {
+    color: rgb(40, 16, 255);
+  }
+  
