@@ -1,6 +1,6 @@
 body {
   background-color: rgb(252, 255, 237);
-  background-image: url('https://cdn.wallpapersafari.com/5/43/h1d9wp.jpg');
+  background-image: url('https://image.freepik.com/free-photo/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.jpg');
    background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -20,14 +20,14 @@ header {
 /* below I decided to implement a subtle outlining effect style to the pages' main title heading */
 header > div > h1 {
   -webkit-text-stroke-width: 0.2px;
-  -webkit-text-stroke-color: rgb(255, 214, 34)
+  -webkit-text-stroke-color: rgb(201, 201, 201)
 
 }
 
 header > div > h2 {
   letter-spacing: 2px;
   -webkit-text-stroke-width: 0.1px;
-  -webkit-text-stroke-color: rgb(255, 214, 34)
+  -webkit-text-stroke-color: rgb(201, 201, 201)
 }
 
 hr {
