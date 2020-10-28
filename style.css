@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: rgb(255, 255, 255);
+  font-size: 18px;
 }
 
 header {
@@ -78,6 +79,7 @@ main > article > img {
 
 main > article > h1 {
   text-align: center;
+  text-decoration: underline;
 }
 
 .second {
