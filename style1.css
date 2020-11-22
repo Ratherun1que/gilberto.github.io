@@ -1,0 +1,61 @@
+@media screen and (min-width: 760px) {
+
+    header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+    header h2 {
+      padding-top: 20px;
+  }
+
+    article {
+      font-size: 18px;
+  }
+
+    .first-p {
+      padding-top: 40px;
+  }
+    
+    .blockstack {
+      display: flex;
+      flex-direction: column;
+  }
+
+    .group {
+      display: flex;
+  }
+
+    .group2 {
+      display: flex;
+      flex: 1;
+    }
+  
+    .selfie {
+    width: 50%;
+    height: 70%;
+  }
+
+    .images {
+      margin-right: 71px;
+    }
+
+    form {
+    padding-right: 8px;
+    /* Fixed small sizing issue on the right */
+  }
+
+    form label {
+    display: block;
+  }
+
+    form input, 
+    form textarea {
+     width: 100%;
+     margin-bottom: 20px;
+  }
+
+    form textarea {
+      height: 160px;
+  }
