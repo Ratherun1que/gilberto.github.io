@@ -1,61 +1,62 @@
 @media screen and (min-width: 760px) {
 
-    header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 30px;
-  }
+  header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
 
-    header h2 {
-      padding-top: 20px;
-  }
+  header h2 {
+    padding-top: 20px;
+}
 
-    article {
-      font-size: 18px;
-  }
+  article {
+    font-size: 18px;
+}
 
-    .first-p {
-      padding-top: 40px;
-  }
-    
-    .blockstack {
-      display: flex;
-      flex-direction: column;
-  }
-
-    .group {
-      display: flex;
-  }
-
-    .group2 {
-      display: flex;
-      flex: 1;
-    }
+  .first-p {
+    padding-top: 40px;
+}
   
-    .selfie {
-    width: 50%;
-    height: 70%;
+  .blockstack {
+    display: flex;
+    flex-direction: column;
+}
+
+  .group {
+    display: flex;
+}
+
+  .group2 {
+    display: flex;
+    flex: 1;
   }
 
-    .images {
-      margin-right: 71px;
-    }
+  .selfie {
+  width: 50%;
+  height: 80%;
+}
 
-    form {
-    padding-right: 8px;
-    /* Fixed small sizing issue on the right */
+  .images {
+    margin-right: 71px;
   }
 
-    form label {
-    display: block;
-  }
+  form {
+  padding-right: 8px;
+  /* Fixed small sizing issue on the right */
+}
 
-    form input, 
-    form textarea {
-     width: 100%;
-     margin-bottom: 20px;
-  }
+  form label {
+  display: block;
+}
 
-    form textarea {
-      height: 160px;
-  }
+  form input, 
+  form textarea {
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+  form textarea {
+    height: 160px;
+}
+}
